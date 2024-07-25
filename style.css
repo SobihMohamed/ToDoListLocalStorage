@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0; 
+    padding: 0;
+    padding-top: 100px; 
+    height: 100vh;
+    background-color: #024b5f;
+}
+.container {
+    margin: 0 auto;
+    width: 50%; 
+    border: 1px solid #ccc; 
+    padding: 20px; 
+}
+.form {
+    margin-bottom: 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    flex: 1 1 100px;
+}
+.tasks {
+    border: 1px solid #ccc; 
+    padding: 10px;
+}
+.input{
+    width: 70%;
+    border: none;
+    outline: none;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: #03a4b694;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.add{
+    margin: 10px;
+    padding: 15px 25px;
+    background-image: linear-gradient(45deg,#090950,#717113);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+.add:hover{
+    background-image: linear-gradient(270deg,#9fb7c6,#888838);
+    color: rgb(0, 0, 0);
+}
+/* newDiv.style.cssText="*/
+.task{
+    /* border-bottom: 1px solid #b3b316; */
+    padding:10px 20px 10px 0;
+    background-color: aliceblue;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 2px 2px 10px black;
+    margin-bottom: 20px;
+
+}
+.task .edit_delete .edit{
+    background-color: #2a8f7b;
+    padding: 5px;
+    border-radius: 10px;
+    font-style: italic;
+    color: gold;
+    cursor: pointer;
+}
+
+.task .edit_delete .delete{
+    background-color: #000000;
+    margin-right:10px ;
+    padding: 5px;
+    border-radius: 10px;
+    font-style: italic;
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+
+}
+/* newTask.style.cssText="" */
+.task_input {
+    background-color: aliceblue;
+    width: 70%;
+    border: none;
+    outline: none;
+    padding: 10px 20px 10px 10px;
+    border-radius: 20px;
+    cursor: auto;
+    color: #000000;
+    font-weight: 900;
+    font-size: 15px;
+}
